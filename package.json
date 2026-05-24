@@ -1,0 +1,21 @@
+{
+  "name": "clinic-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp automated booking bot for dental & laser clinics — UAE",
+  "main": "bot.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "dependencies": {
+    "docx": "^9.6.1",
+    "express": "^4.18.2",
+    "twilio": "^4.20.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

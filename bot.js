@@ -13,8 +13,8 @@ app.use(express.json());
 
 // ─── Clinic config (edit to match real clinic) ───────────────
 const CLINIC = {
-  nameAr: 'عيادة البريق للأسنان والليزر',
-  nameEn: 'Al-Bariq Dental & Laser Clinic',
+  nameAr: 'عيادة الإمارات للأسنان والليزر',
+  nameEn: 'Emirates Dental & Laser Clinic',
 };
 
 // ─── Services ────────────────────────────────────────────────
